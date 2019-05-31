@@ -1,0 +1,46 @@
+body{
+	font-family: source sans pro;
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 20px;
+	border:20px solid #bdc3c7; 
+	padding: 20px;
+}
+
+h2{
+	color: #2c3e50
+}
+
+.special{
+	border-left: 6px solid #bdc3c7
+}
+.special{
+	padding-left: 5px;
+}
+.date{
+	color: #3498db
+    /*text-transform: uppercase;*/
+}
+span{
+	text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
